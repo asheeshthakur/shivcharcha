@@ -1,0 +1,23 @@
+<html>
+
+  <body>
+<a href="https://bay02.calendar.live.com/calendar/calendar.aspx?rru=addevent&dtstart=20151119T140000Z&dtend=20151119T160000Z&summary=Summary+of+the+event&location=Location+of+the+event&description=example+text.&allday=false&uid=">add to Outlook calendar</a>
+
+<a href="http://www.google.com/calendar/event?action=TEMPLATE&text=Example%20Event&dates=20131124T010000Z/20131124T020000Z&details=Event%20Details%20Here&location=123%20Main%20St%2C%20Example%2C%20NY">Add to gCal</a> 
+
+
+<a href="https://calendar.yahoo.com/?v=60&view=d&type=20&title=Summary+of+the+event&st=20151119T090000&et=20151119T110000&desc=example+text.%0A%0AThis+is+the+text+entered+in+the+event+description+field.&in_loc=Location+of+the+event&uid=">add to Yahoo calendar</a>
+    <form name="form1">
+      <input type=button onClick="test()" value="Open File">
+      <br><br>
+    </form>
+
+    <script type="text/javascript">
+      function test() {
+        var Excel = new ActiveXObject("Excel.Application");
+        Excel.Visible = true;
+        Excel.Workbooks.Open("Scrum.xlsx");
+      }
+    </script>
+  </body>
+</html>
